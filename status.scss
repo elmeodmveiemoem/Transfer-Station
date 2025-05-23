@@ -163,3 +163,9 @@
   color: #E74C3C;
   background-color: #FFEBEE;
 }
+
+{
+  "--el-tag-text-color": isDark.value ? "#ffb300" : "#26A69A",
+  "--el-tag-bg-color": isDark.value ? "#2c3e50" : "#fff3e0",
+  "--el-tag-border-color": isDark.value ? "#D49604" : "#FAA11D"
+}
