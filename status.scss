@@ -164,8 +164,18 @@
   background-color: #FFEBEE;
 }
 
-{
-  "--el-tag-text-color": isDark.value ? "#ffb300" : "#26A69A",
-  "--el-tag-bg-color": isDark.value ? "#2c3e50" : "#fff3e0",
-  "--el-tag-border-color": isDark.value ? "#D49604" : "#FAA11D"
-}
+if (status.value === 'success') {
+    return {
+      '--el-tag-text-color': '#2e7d32',      // 深绿色文字
+      '--el-tag-bg-color': '#e8f5e9',        // 淡绿色背景
+      '--el-tag-border-color': '#66bb6a',    // 浅绿色边框
+    }
+  }
+
+  if (status.value === 'failed') {
+    return {
+      '--el-tag-text-color': '#c62828',      // 红色文字
+      '--el-tag-bg-color': '#ffebee',        // 粉红背景
+      '--el-tag-border-color': '#ef5350',    // 浅红边框
+    }
+  }
