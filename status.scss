@@ -1,0 +1,165 @@
+/* 黑暗模式完整版 */
+@media (prefers-color-scheme: dark) {
+  .status-success {
+    color: #85D061;
+    background-color: #1A2E22;
+  }
+  .status-warning {
+    color: #FFB347;
+    background-color: #2E231B;
+  }
+  .status-error {
+    color: #FF6B6B;
+    background-color: #2E1D1D;
+  }
+  .status-info {
+    color: #5DA8FF;
+    background-color: #1A2838;
+  }
+  .status-disabled {
+    color: #A0A4A8;
+    background-color: #2A2C2E;
+  }
+  .status-important {
+    color: #4A5D7C;
+    background-color: #1E2125;
+  }
+  .status-in-progress {
+    color: #4ED9C4;
+    background-color: #1A2E2A;
+  }
+  .status-pending {
+    color: #FFA726;
+    background-color: #2E241B;
+  }
+  .status-special {
+    color: #BA68C8;
+    background-color: #2A1B2E;
+  }
+  .status-highlight {
+    color: #FF4081;
+    background-color: #2E1A22;
+  }
+  .status-expired {
+    color: #8D6E63;
+    background-color: #2A2320;
+  }
+  .status-completed {
+    color: #26A69A;
+    background-color: #1A2E2B;
+  }
+  .status-new {
+    color: #42A5F5;
+    background-color: #1A2838;
+  }
+  .status-urgent {
+    color: #E74C3C;
+    background-color: #2E1A1A;
+  }
+  .status-active {
+    color: #2ECC71;
+    background-color: #1A2E22;
+  }
+  .status-low-priority {
+    color: #9B59B6;
+    background-color: #2A1B2E;
+  }
+  .status-awaiting-review {
+    color: #3498DB;
+    background-color: #1A2838;
+  }
+  .status-verified {
+    color: #16A085;
+    background-color: #1A2E2B;
+  }
+  .status-expiring-soon {
+    color: #F39C12;
+    background-color: #2E241B;
+  }
+  .status-needs-attention {
+    color: #FF6B6B;
+    background-color: #2E1D1D;
+  }
+}
+
+/* 浅色模式 */
+.status-success {
+  color: #67C23A;
+  background-color: #F0F9EB;
+}
+.status-warning {
+  color: #E6A23C;
+  background-color: #FDF6EC;
+}
+.status-error {
+  color: #F56C6C;
+  background-color: #FEF0F0;
+}
+.status-info {
+  color: #409EFF;
+  background-color: #ECF5FF;
+}
+.status-disabled {
+  color: #909399;
+  background-color: #F4F4F5;
+}
+.status-important {
+  color: #324057;
+  background-color: #E8EAED;
+}
+.status-in-progress {
+  color: #36D7B7;
+  background-color: #E8F8F5;
+}
+.status-pending {
+  color: #FF9800;
+  background-color: #FFF3E0;
+}
+.status-special {
+  color: #9C27B0;
+  background-color: #F3E5F5;
+}
+.status-highlight {
+  color: #E91E63;
+  background-color: #FCE4EC;
+}
+.status-expired {
+  color: #795548;
+  background-color: #EFEBE9;
+}
+.status-completed {
+  color: #1ABC9C;
+  background-color: #E8F6F3;
+}
+.status-new {
+  color: #3498DB;
+  background-color: #E3F2FD;
+}
+.status-urgent {
+  color: #C0392B;
+  background-color: #FFEBEE;
+}
+.status-active {
+  color: #2ECC71;
+  background-color: #E8F5E9;
+}
+.status-low-priority {
+  color: #9B59B6;
+  background-color: #F3E5F5;
+}
+.status-awaiting-review {
+  color: #3498DB;
+  background-color: #E3F2FD;
+}
+.status-verified {
+  color: #16A085;
+  background-color: #E0F2F1;
+}
+.status-expiring-soon {
+  color: #F39C12;
+  background-color: #FFF3E0;
+}
+.status-needs-attention {
+  color: #E74C3C;
+  background-color: #FFEBEE;
+}
