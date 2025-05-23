@@ -163,35 +163,3 @@
   color: #E74C3C;
   background-color: #FFEBEE;
 }
-
- {
-    // 文本颜色
-    '--el-tag-text-color':
-      status.value === 'success'
-        ? isDark.value
-          ? '#a5d6a7' // 成功 + 深色
-          : '#2e7d32' // 成功 + 浅色
-        : isDark.value
-        ? '#ef9a9a' // 失败 + 深色
-        : '#c62828', // 失败 + 浅色
-
-    // 背景颜色
-    '--el-tag-bg-color':
-      status.value === 'success'
-        ? isDark.value
-          ? '#1b5e20' // 深绿色背景
-          : '#e8f5e9'
-        : isDark.value
-        ? '#b71c1c' // 深红背景
-        : '#ffebee',
-
-    // 边框颜色
-    '--el-tag-border-color':
-      status.value === 'success'
-        ? isDark.value
-          ? '#81c784'
-          : '#66bb6a'
-        : isDark.value
-        ? '#e57373'
-        : '#ef5350',
-  }
