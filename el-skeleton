@@ -1,0 +1,24 @@
+<template #template>
+        <div class="steps-skeleton">
+          <div class="steps-line"></div>
+          <div class="step-items">
+            <div v-for="i in 4" :key="i" class="step-item">
+              <el-skeleton-item variant="circle" style="width: 24px; height: 24px" />
+              <el-skeleton-item variant="text" style="margin-top: 8px; width: 100px" />
+            </div>
+          </div>
+        </div>
+        
+        <!-- 步骤内容骨架屏 -->
+        <div style="margin-top: 40px; padding: 20px">
+          <el-skeleton-item variant="h3" style="width: 30%" />
+          <el-skeleton-item variant="text" style="margin-top: 16px; width: 100%" />
+          <el-skeleton-item variant="text" style="width: 90%" />
+          <el-skeleton-item variant="text" style="width: 80%" />
+          
+          <div style="margin-top: 20px; display: flex; justify-content: space-between">
+            <el-skeleton-item variant="button" style="width: 80px; height: 40px" />
+            <el-skeleton-item variant="button" style="width: 80px; height: 40px" />
+          </div>
+        </div>
+      </template>
